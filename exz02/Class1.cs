@@ -13,7 +13,7 @@ namespace exz02
         public double rast;
         public void Km()
         {
-            Console.WriteLine("Введите растояние");
+            Console.WriteLine("Введите растояние");             // растояние доставки в (км)
             rast = Convert.ToDouble(Console.ReadLine());
         }
           
