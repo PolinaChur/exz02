@@ -26,13 +26,13 @@ namespace exz02
                     Console.WriteLine("Введите ширину кузова");                   // ширина кузова в (м)
                     double shirina = Convert.ToDouble(Console.ReadLine());
 
-                    Console.WriteLine("Введите длину груза");                   //
+                    Console.WriteLine("Введите длину груза");                   // длинна груза в (м)
                     double dlinaGruza = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("Введите ширину груза");
+                    Console.WriteLine("Введите ширину груза");                   // ширина груза в (м)
                     double shirinaGruza = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("Введите высоту груза");
+                    Console.WriteLine("Введите высоту груза");                   // высота груза в (м)
                     double visotaGruza = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("Введите плотность груза");
+                    Console.WriteLine("Введите плотность груза");                   // плотность груза в (м)
                     double plotnostGruza = Convert.ToDouble(Console.ReadLine());
                 class1.Km();
                      
@@ -44,10 +44,10 @@ namespace exz02
             {
                 TextWriterTraceListener[] traceListener = new TextWriterTraceListener[1];
                 {
-                    new TextWriterTraceListener("debug.txt");                                                       // Отладочные классы
+                    new TextWriterTraceListener("debug.txt");                          // Отладочные классы
                 }
                 Debug.Listeners.AddRange(traceListener);
-                Debug.WriteLine("Ошибка");
+                Debug.WriteLine("Ошибка");                            // вывод ошибки
                 Debug.Flush();
             }
         }

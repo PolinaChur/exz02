@@ -31,7 +31,7 @@ namespace exz02
                     {
                         if(massa>(dlinaGruza* shirinaGruza*visotaGruza* plotnost))
                         {
-                            Console.WriteLine("Стоимость "+Stoimost(cena, rast, dlinaGruza, shirinaGruza, visotaGruza, plotnost));
+                            Console.WriteLine("Стоимость "+Stoimost(cena, rast, dlinaGruza, shirinaGruza, visotaGruza, plotnost));          // стоимость доставки
                         }
                         else
                         {
@@ -43,7 +43,7 @@ namespace exz02
                         Console.WriteLine("Груз не помещается");
                     }
                 }
-                else if(dlinaGruza<shirina)
+                else if(dlinaGruza<shirina)                           // проверка: поместится ли груз в кузов
                 {
                     if(shirinaGruza<dlina)
                     {
