@@ -21,12 +21,12 @@ namespace exz02
                     massa = massa * 1000;                                               // масса в (кг)
                     Console.WriteLine("Введите объем кузова");
                     double obem = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("Введите длину кузова");
+                    Console.WriteLine("Введите длину кузова");                   // длинна кузова в (м)
                     double dlina = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("Введите ширину кузова");
+                    Console.WriteLine("Введите ширину кузова");                   // ширина кузова в (м)
                     double shirina = Convert.ToDouble(Console.ReadLine());
 
-                    Console.WriteLine("Введите длину груза");
+                    Console.WriteLine("Введите длину груза");                   //
                     double dlinaGruza = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Введите ширину груза");
                     double shirinaGruza = Convert.ToDouble(Console.ReadLine());
