@@ -43,7 +43,7 @@ namespace exz02
                         Console.WriteLine("Груз не помещается");
                     }
                 }
-                else if(dlinaGruza<shirina)                           // проверка: поместится ли груз в кузов
+                else if(dlinaGruza<shirina)                            // проверка: поместится ли груз в кузов
                 {
                     if(shirinaGruza<dlina)
                     {
